@@ -6,7 +6,7 @@ const ejs = require("ejs");
 const _ =require("lodash");
 const mongoose = require("mongoose");
 
-mongoose.connect("mongodb://127.0.0.1:27017/blogDB")
+mongoose.connect("mongodb+srv://admin_0:todolistdb@cluster0.vz0ej8u.mongodb.net/blogDB")
   .then(() => console.log("MongoDB connected"))
   .catch(err => console.log("mongo error"));
 
